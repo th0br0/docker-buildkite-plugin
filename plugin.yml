@@ -33,6 +33,8 @@ configuration:
       type: string
     shell:
       type: [boolean, array]
+    capabilities:
+      type: array
   required:
     - image
   additionalProperties: false
